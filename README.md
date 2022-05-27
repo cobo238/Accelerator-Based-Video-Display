@@ -25,3 +25,6 @@ Module that setsup SPI comunication. This module wa written by someone else.
 
 #### spi_serdes.v :
 Module that performs the read and write of data of the SPI protocal. This module wa written by someon else.
+
+#### testbench.v :
+Hardcoded values from the accelerometer and vga controllers that would test interesting features in the code. Tested when the box is in the center and at the top boundary. Simulation waveform in ModelSim is used to confirm correct operation. 
